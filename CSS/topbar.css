@@ -1,0 +1,49 @@
+
+.top-bar {
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:35px;
+  z-index: 1000;
+  margin:0 0 0 0;
+}
+
+.right-section {
+  display:flex;
+  justify-content: space-between;
+  column-gap:3px;
+  margin: 0px 0 0 20px;
+}
+.right-section div {
+  border:none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:16px;
+  font-weight: 500;;
+  border-radius:3px;
+  background-color: rgb(243, 243, 243);
+  padding: 1px 3px;
+  box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+} 
+.right-section div:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(88, 88, 88);
+  color: rgb(255, 255, 255);
+}
+.right-section .logo-button {
+  background-color: black;
+  border-radius:10px;
+}
+.youtube-logo, .facebook-logo{
+  height:20px;
+}
+.left-section {
+  background-color: lightgreen;
+}
+
