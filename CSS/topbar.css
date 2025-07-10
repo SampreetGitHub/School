@@ -13,14 +13,14 @@
   display:flex;
   justify-content: space-between;
   column-gap:3px;
-  margin: 0px 0 0 20px;
+  margin: 0px 0 0 40px;
 }
 .right-section div {
   border:none;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size:16px;
+  font-size:17px;
   font-weight: 500;;
   border-radius:3px;
   background-color: rgb(243, 243, 243);

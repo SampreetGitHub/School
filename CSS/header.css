@@ -1,8 +1,9 @@
 .header {
   display:flex;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  height:150px;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color: rgb(243, 243, 243);
+  height:170px;
   border-radius:0 0 20px 20px;
   z-index:900;
   border-bottom-width: 1px;
@@ -11,30 +12,47 @@
   box-shadow:0px 5px 10px rgba(0, 0, 0, 0.1);
 
 }
+.header-right-section {
+  display:flex;
+  flex-direction: row;
+
+}
 
 .header img {
-  height:120px;
-  margin: 15px 0 0 10px;
+  height:130px;
+  margin: 18px 0 0 70px;
   border-radius:10px;
-  box-shadow:0px 0px 20px rgba(84, 84, 84, 0.2);
+  box-shadow:0px 0px 0px rgba(84, 84, 84, 0.2);
 }
 
 .header-title {
-  margin:0 0 0 10px;
+  margin:38px 0 0 10px;
   padding:0;
-  text-shadow:0px 0px 5cap rgba(0,0,0,0.1);
+  text-shadow:0px 0px 5px rgba(239, 173, 6, 0.1);
+  color: rgb(236, 171, 7);
 }
 
 .header-title-main {
   margin:0;
   padding:0;
   font-size: 45px;
-  font-weight:1000;
+  font-weight:600;
 }
 
 .header-title-sub {
-  margin:0 0 0 15px;
+  margin:0 0 0 11px;
   padding:0;
   font-size: 27px;
-  font-weight:1000;
+  font-weight:500;
+}
+
+.header-left-section{
+  display:flex;
+  flex-direction:column;
+  text-align: right;
+  margin:50px 50px 0 0;
+}
+
+.header-left-section div {
+  font-size:10px;
 }
