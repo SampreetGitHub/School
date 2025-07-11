@@ -1,6 +1,6 @@
 
 .top-bar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(3, 4, 94);
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,15 @@
   column-gap:3px;
   margin: 0px 0 0 40px;
 }
-.right-section div {
+
+.left-section {
+  display:flex;
+  justify-content: space-between;
+  column-gap:5px;
+  margin: 0 40px 0 0;
+}
+
+.right-section div, .left-section div {
   border:none;
   display:flex;
   justify-content: center;
@@ -29,11 +37,11 @@
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s;
 } 
-.right-section div:hover {
+.right-section div:hover, .left-section div:hover {
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(0, 0, 0);
-  background-color: rgb(88, 88, 88);
+  border-color: rgb(2, 62, 138);
+  background-color: rgb(0, 119, 182);
   color: rgb(255, 255, 255);
 }
 .right-section .logo-button {
@@ -42,8 +50,5 @@
 }
 .youtube-logo, .facebook-logo{
   height:20px;
-}
-.left-section {
-  background-color: lightgreen;
 }
 

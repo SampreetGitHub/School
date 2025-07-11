@@ -3,17 +3,17 @@
   justify-content: center;
   align-items: center;
   position:sticky;
-  top:0.8%;
-  margin:0.4% 0 0 0;
+  top:1%;
+  margin:1% 0 0 0;
   z-index: 1000;
 }
 
 .nav-bar {
-  background-color: rgb(95, 101, 101);
-  box-shadow:3px 5px 4px rgba(0, 0, 0, 0.4);
-  height: 43px;
+  background-color:rgb(2, 62, 138);
+  box-shadow:3px 5px 4px rgba(28, 97, 143, 0.2);
+  height: 50px;
   width: 90%;
-  border-radius:8px;
+  border-radius:15px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -24,11 +24,13 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(8, 8, 8);
+  background-color:rgb(0, 150, 199);
   color: white;
   border-radius:6px;
   height:80%;
   width:15%;
+  font-weight:500;
+  color:rgb(0, 0, 0);
   border:none;
   box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
   cursor: pointer;
@@ -36,7 +38,7 @@
 } 
 
 .nav-bar div:hover {
-  background-color: rgb(12, 69, 133);
+  background-color:rgb(0, 180, 216);
   color: rgb(255, 255, 255);
 }
 
